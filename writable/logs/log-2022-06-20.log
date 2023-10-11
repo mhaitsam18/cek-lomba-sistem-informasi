@@ -1,0 +1,69 @@
+CRITICAL - 2022-06-20 02:25:54 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\bismillah_pa\app\Controllers\pages.php(60): view('pages/login')
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->login()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-20 02:26:48 --> Cannot declare class App\Controllers\input, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-20 02:27:38 --> Table 'proyekakhir_db.users' doesn't exist
+CRITICAL - 2022-06-20 02:27:38 --> Table 'proyekakhir_db.users' doesn't exist
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-20 02:41:54 --> Table 'proyekakhir_db.users' doesn't exist
+CRITICAL - 2022-06-20 02:41:54 --> Table 'proyekakhir_db.users' doesn't exist
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-20 02:43:25 --> Table 'proyekakhir_db.users' doesn't exist
+CRITICAL - 2022-06-20 02:43:25 --> Table 'proyekakhir_db.users' doesn't exist
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-20 02:45:23 --> Invalid file: login.php
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\bismillah_pa\app\Controllers\Login.php(14): view('login')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,365 @@
+ERROR - 2022-07-28 01:05:56 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-07-28 01:05:56 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT TIMESTAM...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT TIMESTAM...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT TIMESTAM...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT TIMESTAM...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(49): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(98): App\Models\lombaModel->datatanggal(Array)
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-07-28 01:06:26 --> Array to string conversion
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(98): App\Models\lombaModel->datatanggal(Array)
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-28 01:06:38 --> Undefined variable: tgl
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\admin_upcoming_lomba.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(108): view('pages/admin_upc...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-28 01:07:08 --> Undefined variable: tgl
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\admin_upcoming_lomba.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(108): view('pages/admin_upc...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-28 01:07:38 --> Undefined variable: id
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:07:59 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): App\Models\lombaModel->datatanggal(0)
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-28 01:08:03 --> Undefined variable: id
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:08:18 --> Too few arguments to function App\Models\lombaModel::datatanggal(), 0 passed in C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php on line 100 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): App\Models\lombaModel->datatanggal()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:13:20 --> Array to string conversion
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): App\Models\lombaModel->datatanggal(Array)
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-28 01:13:27 --> Too few arguments to function App\Models\lombaModel::datatanggal(), 0 passed in C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php on line 100 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): App\Models\lombaModel->datatanggal()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:13:33 --> Too few arguments to function App\Models\lombaModel::datatanggal(), 0 passed in C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php on line 100 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): App\Models\lombaModel->datatanggal()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:23:42 --> Array to string conversion
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): App\Models\lombaModel->datatanggal(Array)
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-28 01:23:53 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:24:20 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:24:44 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:24:53 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 01:30:16 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:01:45 --> Undefined variable: output
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:41:36 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\lomb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\lomb...')
+#3 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(19): spl_autoload_call('App\\Models\\lomb...')
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\admin->__construct()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-28 02:41:37 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\lomb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\lomb...')
+#3 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(19): spl_autoload_call('App\\Models\\lomb...')
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\admin->__construct()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-28 02:41:56 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:42:03 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(100): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-28 02:42:23 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-07-28 02:42:23 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama`, ...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(102): App\Models\lombaModel->getInput()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-07-28 02:44:21 --> Call to undefined method App\Models\lombaModel::getResult
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(60): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(102): App\Models\lombaModel->getInput()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-28 02:44:47 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-07-28 02:44:47 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama`, ...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(102): App\Models\lombaModel->getInput()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-07-28 02:45:57 --> Undefined variable: tanggals
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:46:10 --> Undefined index: curdate
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\admin_upcoming_lomba.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(109): view('pages/admin_upc...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-28 02:46:43 --> Unknown column 'curdate' in 'field list'
+CRITICAL - 2022-07-28 02:46:43 --> Unknown column 'curdate' in 'field list'
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT TIMESTAM...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT TIMESTAM...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT TIMESTAM...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT TIMESTAM...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(102): App\Models\lombaModel->getInput()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-07-28 02:47:10 --> Unknown column 'curdate' in 'field list'
+CRITICAL - 2022-07-28 02:47:10 --> Unknown column 'curdate' in 'field list'
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT TIMESTAM...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT TIMESTAM...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT TIMESTAM...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT TIMESTAM...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(60): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(102): App\Models\lombaModel->getInput()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-07-28 02:47:20 --> Undefined variable: tanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:47:31 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:47:51 --> Array to string conversion
+#0 C:\xampp\htdocs\bismillah_pa\app\Models\lombaModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): App\Models\lombaModel->datatanggal(Array)
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-28 02:48:35 --> Call to undefined method App\Models\lombaModel::datatanggal
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(97): CodeIgniter\Model->__call('datatanggal', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-28 02:48:40 --> Undefined index: curdate
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\admin_upcoming_lomba.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(109): view('pages/admin_upc...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-28 02:48:53 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#2 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(109): view('pages/admin_upc...', Array)
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-28 02:51:08 --> Undefined index: id
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\admin_upcoming_lomba.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin_upc...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\admin.php(109): view('pages/admin_upc...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\admin->tambah_lomba()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-28 03:05:37 --> Argument 3 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\bismillah_pa\app\Controllers\tambah_lomba.php on line 53
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\tambah_lomba.php(53): view('pages/upcoming_...', Array, Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\tambah_lomba->index()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tambah_lomba))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

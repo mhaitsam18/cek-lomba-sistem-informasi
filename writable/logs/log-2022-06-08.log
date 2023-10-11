@@ -1,0 +1,280 @@
+CRITICAL - 2022-06-08 01:07:59 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php on line 67
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Object(stdClass))
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 01:08:28 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:08:51 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:09:11 --> Trying to get property 'nim' of non-object
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:10:12 --> Undefined variable: mahasiswa
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:13:14 --> Undefined variable: mahasiswa
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:14:51 --> Undefined variable: mahasiswa
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:23:17 --> Undefined variable: input
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:24:11 --> Undefined variable: input
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:25:21 --> Undefined variable: input
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\form_edit_input.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(67): view('pages/form_edit...', Array)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 01:36:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/form_edit...', Array, true)
+#3 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(66): view('pages/form_edit...', Array)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->edit('5')
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 01:43:52 --> Call to undefined method App\Models\inputModel::editBarang
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(99): CodeIgniter\Model->__call('editBarang', Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 01:55:27 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 01:56:08 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 01:57:21 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 02:17:58 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:01:50 --> Too few arguments to function App\Controllers\input::update(), 0 passed in C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:02:29 --> Too few arguments to function App\Controllers\input::update(), 0 passed in C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:02:45 --> Too few arguments to function App\Controllers\input::update(), 0 passed in C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:03:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:04:38 --> There is no data to update.
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\bismillah_pa\app\Models\inputModel.php(28): CodeIgniter\Model->update(Array, NULL)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 23:04:50 --> There is no data to update.
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\bismillah_pa\app\Models\inputModel.php(28): CodeIgniter\Model->update(Array, NULL)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 23:05:13 --> There is no data to update.
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\bismillah_pa\app\Models\inputModel.php(28): CodeIgniter\Model->update(Array, NULL)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 23:07:33 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:07:47 --> Call to a member function input_mahasiswa() on null
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:08:00 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:36:30 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:37:04 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 23:38:10 --> There is no data to update.
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\bismillah_pa\app\Models\inputModel.php(28): CodeIgniter\Model->update(Array, NULL)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(93): App\Models\inputModel->editInput(Array, NULL)
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->update()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

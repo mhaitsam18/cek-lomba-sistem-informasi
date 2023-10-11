@@ -1,0 +1,94 @@
+CRITICAL - 2022-06-05 22:32:06 --> Undefined variable: csrf_field
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\input_mahasiswa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/input_mah...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\pages.php(28): view('pages/input_mah...')
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->input_mahasiswa()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-05 23:20:35 --> Undefined variable: csrf_field
+#0 C:\xampp\htdocs\bismillah_pa\app\Views\pages\input_mahasiswa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/input_mah...', Array, true)
+#4 C:\xampp\htdocs\bismillah_pa\app\Controllers\pages.php(28): view('pages/input_mah...')
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->input_mahasiswa()
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-05 23:28:36 --> Cannot declare class App\Models\input, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-05 23:35:54 --> Undefined property: App\Controllers\input::$input
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-05 23:36:10 --> Undefined property: App\Controllers\input::$input
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-05 23:47:06 --> Column 'kelas' cannot be null
+CRITICAL - 2022-06-05 23:47:06 --> Column 'kelas' cannot be null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#10 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-06-05 23:48:48 --> Column 'kelas' cannot be null
+CRITICAL - 2022-06-05 23:48:48 --> Column 'kelas' cannot be null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#10 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-06-05 23:49:12 --> Column 'no_hp' cannot be null
+CRITICAL - 2022-06-05 23:49:12 --> Column 'no_hp' cannot be null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bismillah_pa\app\Controllers\input.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\input->save()
+#10 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\input))
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

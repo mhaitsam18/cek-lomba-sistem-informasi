@@ -1,0 +1,56 @@
+CRITICAL - 2022-07-29 01:43:28 --> Undefined property: App\Controllers\prediksi::$lombaModel
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 01:44:06 --> Undefined property: App\Controllers\prediksi::$lombaModel
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 01:45:54 --> Undefined property: App\Controllers\prediksi::$lombaModel
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 01:46:51 --> Undefined property: App\Controllers\prediksi::$lombaModel
+#0 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-29 01:47:37 --> Column 'link' cannot be null
+CRITICAL - 2022-07-29 01:47:37 --> Column 'link' cannot be null
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bismillah_pa\app\Controllers\prediksi.php(49): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->panggil_model()
+#10 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#11 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-07-29 02:45:45 --> Call to undefined function App\Controllers\panggil_model()
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->save()
+#1 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#2 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

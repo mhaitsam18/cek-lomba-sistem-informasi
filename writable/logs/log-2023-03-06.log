@@ -1,0 +1,12 @@
+CRITICAL - 2023-03-06 19:27:40 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\Haitsam\PHP Project\Codeigniter 4\bismillah_pa\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\Haitsam\PHP Project\Codeigniter 4\bismillah_pa\spark(45): require('D:\\Haitsam\\PHP ...')
+#2 {main}
+CRITICAL - 2023-03-06 19:28:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\bismillah_pa\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-03-06 19:50:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\bismillah_pa\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}

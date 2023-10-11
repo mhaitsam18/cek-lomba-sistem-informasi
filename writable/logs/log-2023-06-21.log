@@ -1,0 +1,7 @@
+CRITICAL - 2023-06-21 02:43:01 --> Call to undefined function App\Controllers\panggil_model()
+#0 D:\Haitsam\PHP Projects\Codeigniter 4\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\prediksi->save()
+#1 D:\Haitsam\PHP Projects\Codeigniter 4\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\prediksi))
+#2 D:\Haitsam\PHP Projects\Codeigniter 4\bismillah_pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Haitsam\PHP Projects\Codeigniter 4\bismillah_pa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Haitsam\PHP Projects\Codeigniter 4\bismillah_pa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Haitsam\\PHP ...')
+#5 {main}

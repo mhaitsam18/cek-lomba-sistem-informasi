@@ -1,0 +1,4 @@
+CRITICAL - 2023-03-07 15:56:49 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\bismillah_pa\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\bismillah_pa\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
